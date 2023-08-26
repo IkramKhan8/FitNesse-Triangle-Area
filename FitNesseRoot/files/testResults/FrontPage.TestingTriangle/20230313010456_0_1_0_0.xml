@@ -1,0 +1,400 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20221219</FitNesseVersion>
+  <rootPath>FrontPage.TestingTriangle</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>3</wrong>
+      <ignores>0</ignores>
+      <exceptions>6</exceptions>
+    </counts>
+    <date>2023-03-13T01:04:56+01:00</date>
+    <runTimeInMillis>67</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: classes&lt;/span&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;org.example &lt;span class="error"&gt;Could not find class org&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="4"&gt;TriangleArea&lt;a title="create page" href="FrontPage.TriangleArea?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt; &lt;span class="error"&gt;Could not find class TriangleArea&amp;lt;a&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;setBase&lt;/td&gt;
+		&lt;td&gt;setHeight&lt;/td&gt;
+		&lt;td&gt;calculateArea&lt;/td&gt;
+		&lt;td&gt;getArea?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;3 &lt;span class="error"&gt;The instance decisionTable_1.setSetBase. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;4 &lt;span class="error"&gt;The instance decisionTable_1.setSetHeight. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="error"&gt;The instance decisionTable_1.setCalculateArea. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;6 &lt;span class="error"&gt;The instance decisionTable_1.getArea. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: /Users/ikramkhan/IdeaProjects/FitNesse-Triangle-Area/target/classes&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;org.example.TriangleArea&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;base&lt;/td&gt;
+		&lt;td colspan="2"&gt;height&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;3.0&lt;/td&gt;
+		&lt;td&gt;5.0&lt;/td&gt;
+		&lt;td&gt;7.5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;2.0&lt;/td&gt;
+		&lt;td&gt;3.5&lt;/td&gt;
+		&lt;td&gt;3.5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;13.0&lt;/td&gt;
+		&lt;td&gt;10.0&lt;/td&gt;
+		&lt;td&gt;65&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;13.0&lt;/td&gt;
+		&lt;td&gt;10.0&lt;/td&gt;
+		&lt;td&gt;61&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;org.example&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;TriangleArea&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;base&lt;/td&gt;
+		&lt;td&gt;height&lt;/td&gt;
+		&lt;td&gt;calculateArea?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;3.0&lt;/td&gt;
+		&lt;td&gt;5.0&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;/__VOID__/&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;span class="diff"&gt;7.2&lt;/span&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;2.0&lt;/td&gt;
+		&lt;td&gt;3.5&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;/__VOID__/&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;span class="diff"&gt;3.5&lt;/span&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;13.0&lt;/td&gt;
+		&lt;td&gt;10.0&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;/__VOID__/&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;span class="diff"&gt;65&lt;/span&gt;]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>TestingTriangle</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='org.example', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_0</instructionId>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Could not find class org</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_0', instruction='make', instanceName='decisionTable_1', className='TriangleArea&lt;a title="create page" href="FrontPage.TriangleArea?edit&amp;nonExistent=true"&gt;[?]&lt;/a&gt;', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_0</instructionId>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Could not find class TriangleArea&lt;a</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_4', instruction='call', instanceName='decisionTable_1', methodName='setSetBase', args=[3]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_4</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_1.setSetBase. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_5', instruction='call', instanceName='decisionTable_1', methodName='setSetHeight', args=[4]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_5</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_1.setSetHeight. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_6', instruction='call', instanceName='decisionTable_1', methodName='setCalculateArea', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_6</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_1.setCalculateArea. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_8', instruction='call', instanceName='decisionTable_1', methodName='getArea', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_8</instructionId>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>The instance decisionTable_1.getArea. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_0', instruction='make', instanceName='decisionTable_2', className='org.example.TriangleArea', args=[]}</instruction>
+        <slimResult>pass(org.example.TriangleArea)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_2_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>org.example.TriangleArea</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_4', instruction='call', instanceName='decisionTable_2', methodName='setBase', args=[3.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_2_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_5', instruction='call', instanceName='decisionTable_2', methodName='setHeight', args=[5.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_2_5</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_8', instruction='call', instanceName='decisionTable_2', methodName='setBase', args=[2.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_2_8</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_9', instruction='call', instanceName='decisionTable_2', methodName='setHeight', args=[3.5]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_2_9</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_12', instruction='call', instanceName='decisionTable_2', methodName='setBase', args=[13.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_2_12</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_13', instruction='call', instanceName='decisionTable_2', methodName='setHeight', args=[10.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_2_13</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_16', instruction='call', instanceName='decisionTable_2', methodName='setBase', args=[13.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_2_16</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_2_17', instruction='call', instanceName='decisionTable_2', methodName='setHeight', args=[10.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_2_17</instructionId>
+          <col>1</col>
+          <row>5</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='import_3_0', instruction='import', path='org.example'}</instruction>
+        <slimResult>pass(org.example)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_3_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>org.example</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_4_0', instruction='make', instanceName='decisionTable_4', className='TriangleArea', args=[]}</instruction>
+        <slimResult>pass(TriangleArea)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_4_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>TriangleArea</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_4_4', instruction='call', instanceName='decisionTable_4', methodName='setBase', args=[3.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_4_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_4_5', instruction='call', instanceName='decisionTable_4', methodName='setHeight', args=[5.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_4_5</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_4_7', instruction='call', instanceName='decisionTable_4', methodName='calculateArea', args=[]}</instruction>
+        <slimResult>fail(a=/__VOID__/;e=7.2)</slimResult>
+        <expectation>
+          <status>fail</status>
+          <instructionId>decisionTable_4_7</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+          <actual>/__VOID__/</actual>
+          <expected>7.2</expected>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_4_9', instruction='call', instanceName='decisionTable_4', methodName='setBase', args=[2.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_4_9</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_4_10', instruction='call', instanceName='decisionTable_4', methodName='setHeight', args=[3.5]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_4_10</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_4_12', instruction='call', instanceName='decisionTable_4', methodName='calculateArea', args=[]}</instruction>
+        <slimResult>fail(a=/__VOID__/;e=3.5)</slimResult>
+        <expectation>
+          <status>fail</status>
+          <instructionId>decisionTable_4_12</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+          <actual>/__VOID__/</actual>
+          <expected>3.5</expected>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_4_14', instruction='call', instanceName='decisionTable_4', methodName='setBase', args=[13.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_4_14</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_4_15', instruction='call', instanceName='decisionTable_4', methodName='setHeight', args=[10.0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_4_15</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_4_17', instruction='call', instanceName='decisionTable_4', methodName='calculateArea', args=[]}</instruction>
+        <slimResult>fail(a=/__VOID__/;e=65)</slimResult>
+        <expectation>
+          <status>fail</status>
+          <instructionId>decisionTable_4_17</instructionId>
+          <col>2</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+          <actual>/__VOID__/</actual>
+          <expected>65</expected>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -cp classes:/Users/ikramkhan/IdeaProjects/FitNesse-Triangle-Area/target/classes:/Users/ikramkhan/.m2/repository/org/fitnesse/fitnesse/20221219/fitnesse-20221219.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut>WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by fitnesse.slim.instructions.SystemExitSecurityManager (file:/Users/ikramkhan/.m2/repository/org/fitnesse/fitnesse/20221219/fitnesse-20221219.jar)
+WARNING: Please consider reporting this to the maintainers of fitnesse.slim.instructions.SystemExitSecurityManager
+WARNING: System::setSecurityManager will be removed in a future release
+</stdOut>
+    <stdErr>Slim  Map converter not loaded: could not find class org/htmlparser/NodeFilter
+
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>248</totalRunTimeInMillis>
+</testResults>
+
